@@ -1,0 +1,221 @@
+[{  "nombre": "Botella de cera en pasta - Amarillo",
+    "categoria": "Cera en pasta",
+    "price": 8,
+    "imagen": "https://dalhi.pe/img/product-img/cera2.jpg"
+  },
+  {
+    "nombre": "Galón de cera en pasta - Rojo",
+    "categoria": "Cera en pasta",
+    "price": 64,
+    "imagen": "https://dalhi.pe/img/product-img/cera3.jpg"
+  },
+  {
+    "nombre": "Botella de cera en pasta - Rojo",
+    "categoria": "Cera en pasta",
+    "price": 8,
+    "imagen": "https://dalhi.pe/img/product-img/cera4.jpg"
+  },
+  {
+    "nombre": "Frasco de lejía - 1 LT",
+    "categoria": "Lejía",
+    "price": 5,
+    "imagen": "https://dalhi.pe/img/product-img/lejia1.jpg"
+  },
+  {
+    "nombre": "Galonera de lejía - 4 LT",
+    "categoria": "Lejía",
+    "price": 10,
+    "imagen": "https://dalhi.pe/img/product-img/lejia2.jpg"
+  },
+  {
+    "nombre": "Bidón de lejía - 20 LT",
+    "categoria": "Lejía",
+    "price": 30,
+    "imagen": "https://dalhi.pe/img/product-img/lejia3.jpg"
+  },
+  {
+    "nombre": "Cilindro de lejía - 220 LT",
+    "categoria": "Lejía",
+    "price": 220,
+    "imagen": "https://dalhi.pe/img/product-img/lejia4.jpg"
+  },
+  {
+    "nombre": "Galón de limpiavidrios - 3.785 LT",
+    "categoria": "Limpiavidrios",
+    "price": 35,
+    "imagen": "https://dalhi.pe/img/product-img/limpiav1.jpg"
+  },
+  {
+    "nombre": "Desodorizante para baño - Coco",
+    "categoria": "Desodorizante para baño",
+    "price": 3,
+    "imagen": "https://dalhi.pe/img/product-img/deso1.jpg"
+  },
+  {
+    "nombre": "Desodorizante para baño - Durazno",
+    "categoria": "Desodorizante para baño",
+    "price": 3,
+    "imagen": "https://dalhi.pe/img/product-img/deso2.jpg"
+  },
+  {
+    "nombre": "Desodorizante para baño - Fresa",
+    "categoria": "Desodorizante para baño",
+    "price": 3,
+    "imagen": "https://dalhi.pe/img/product-img/deso3.jpg"
+  },
+  {
+    "nombre": "Desodorizante para baño - Lavanda",
+    "categoria": "Desodorizante para baño",
+    "price": 3,
+    "imagen": "https://dalhi.pe/img/product-img/deso4.jpg"
+  },
+  {
+    "nombre": "Desodorizante para baño - Limón",
+    "categoria": "Desodorizante para baño",
+    "price": 3,
+    "imagen": "https://dalhi.pe/img/product-img/deso5.jpg"
+  },
+  {
+    "nombre": "Desodorizante para baño - Manzana",
+    "categoria": "Desodorizante para baño",
+    "price": 3,
+    "imagen": "https://dalhi.pe/img/product-img/deso6.jpg"
+  },
+  {
+    "nombre": "Botella de 1 LT - Perfumador ambiental - Bouquet",
+    "categoria": "Perfumadores",
+    "price": 2,
+    "imagen": "https://dalhi.pe/img/product-img/perf1.jpg"
+  },
+  {
+    "nombre": "Galón de 3.785 LT - Perfumador ambiental - Bouquet",
+    "categoria": "Perfumadores",
+    "price": 15,
+    "imagen": "https://dalhi.pe/img/product-img/perf2.jpg"
+  },
+  {
+    "nombre": "Bidón de 20 LT - Perfumador ambiental - Bouquet",
+    "categoria": "Perfumadores",
+    "price": 80,
+    "imagen": "https://dalhi.pe/img/product-img/perf3.jpg"
+  },
+  {
+    "nombre": "Botella de 1 LT - Perfumador ambiental - Limón",
+    "categoria": "Perfumadores",
+    "price": 2,
+    "imagen": "https://dalhi.pe/img/product-img/perf4.jpg"
+  },
+  {
+    "nombre": "Galón de 3.785 LT - Perfumador ambiental - Limón",
+    "categoria": "Perfumadores",
+    "price": 15,
+    "imagen": "https://dalhi.pe/img/product-img/perf5.jpg"
+  },
+  {
+    "nombre": "Bidón de 20 LT - Perfumador ambiental - Limón",
+    "categoria": "Perfumadores",
+    "price": 80,
+    "imagen": "https://dalhi.pe/img/product-img/perf6.jpg"
+  },
+  {
+    "nombre": "Botella de 1 LT - Perfumador ambiental - Lavanda",
+    "categoria": "Perfumadores",
+    "price": 2,
+    "imagen": "https://dalhi.pe/img/product-img/perf7.jpg"
+  },
+  {
+    "nombre": "Galón de 3.785 LT - Perfumador ambiental - Lavanda",
+    "categoria": "Perfumadores",
+    "price": 15,
+    "imagen": "https://dalhi.pe/img/product-img/perf8.jpg"
+  },
+  {
+    "nombre": "Bidón de 20 LT - Perfumador ambiental - Lavanda",
+    "categoria": "Perfumadores",
+    "price": 80,
+    "imagen": "https://dalhi.pe/img/product-img/perf9.jpg"
+  },
+  {
+    "nombre": "Botella de 1 LT - Perfumador ambiental - Manzana",
+    "categoria": "Perfumadores",
+    "price": 2,
+    "imagen": "https://dalhi.pe/img/product-img/perf10.jpg"
+  },
+  {
+    "nombre": "Galón de 3.785 LT - Perfumador ambiental - Manzana",
+    "categoria": "Perfumadores",
+    "price": 15,
+    "imagen": "https://dalhi.pe/img/product-img/perf11.jpg"
+  },
+  {
+    "nombre": "Bidón de 20 LT - Perfumador ambiental - Manzana",
+    "categoria": "Perfumadores",
+    "price": 80,
+    "imagen": "https://dalhi.pe/img/product-img/perf12.jpg"
+  },
+  {
+    "nombre": "Botella de 1 LT - Perfumador ambiental - Primavera",
+    "categoria": "Perfumadores",
+    "price": 2,
+    "imagen": "https://dalhi.pe/img/product-img/perf13.jpg"
+  },
+  {
+    "nombre": "Galón de 3.785 LT - Perfumador ambiental - Primavera",
+    "categoria": "Perfumadores",
+    "price": 15,
+    "imagen": "https://dalhi.pe/img/product-img/perf14.jpg"
+  },
+  {
+    "nombre": "Bidón de 20 LT - Perfumador ambiental - Primavera",
+    "categoria": "Perfumadores",
+    "price": 80,
+    "imagen": "https://dalhi.pe/img/product-img/perf15.jpg"
+  },
+  {
+    "nombre": "Botella desinfectante germicida - Pino 1 LT",
+    "categoria": "Desinfectantes",
+    "price": 3,
+    "imagen": "https://dalhi.pe/img/product-img/desinfecta1.jpg"
+  },
+  {
+    "nombre": "Bidón desinfectante germicida - Pino 20 LT",
+    "categoria": "Desinfectantes",
+    "price": 30,
+    "imagen": "https://dalhi.pe/img/product-img/desinfecta2.jpg"
+  },
+  {
+    "nombre": "Cilindro desinfectante germicida - Pino 220 LT",
+    "categoria": "Desinfectantes",
+    "price": 315,
+    "imagen": "https://dalhi.pe/img/product-img/desinfecta3.jpg"
+  },
+  {
+    "nombre": "Botella removedor de sarro - 1 LT",
+    "categoria": "Quitasarro",
+    "price": 18,
+    "imagen": "https://dalhi.pe/img/product-img/quitasarro1.jpg"
+  },
+  {
+    "nombre": "Galón removedor de sarro - 4 LT",
+    "categoria": "Quitasarro",
+    "price": 36,
+    "imagen": "https://dalhi.pe/img/product-img/quitasarro2.jpg"
+  },
+  {
+    "nombre": "Botella de silicona - 1 LT",
+    "categoria": "Silicona",
+    "price": 10,
+    "imagen": "https://dalhi.pe/img/product-img/silicona1.jpg"
+  },
+  {
+    "nombre": "Galón de silicona - 3.785 LT",
+    "categoria": "Silicona",
+    "price": 57,
+    "imagen": "https://dalhi.pe/img/product-img/silicona2.jpg"
+  },
+  {
+    "nombre": "Bidón de silicona - 20 LT",
+    "categoria": "Silicona",
+    "price": 121,
+    "imagen": "https://dalhi.pe/img/product-img/silicona3.jpg"
+  }]

@@ -1,0 +1,48 @@
+.register-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00bfff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #009acd;
+}
+
+.login-link {
+  margin-top: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.login-link span {
+  color: #00bfff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-link span:hover {
+  text-decoration: underline;
+}
