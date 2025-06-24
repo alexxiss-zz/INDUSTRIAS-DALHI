@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import { Link } from 'react-router-dom';
+import Layout from './Layout';
 
 const categorias = [
   'Todos',
@@ -68,26 +69,7 @@ function Home() {
   };
 
   return (
-    <div className="home-page">
-      <nav className="navbar">
-        <div className="navbar-left">
-          <img src={logo} alt="Logo" />
-          <span>INDUSTRIAS DALHI</span>
-        </div>
-        <button className="menu-btn" onClick={() => setSidebarOpen(true)}>
-          &#9776;
-        </button>
-      </nav>
-
-      <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
-        <button className="close-btn" onClick={() => setSidebarOpen(false)}>
-          &times;
-        </button>
-        <Link to="/">Productos</Link>
-        <Link to="/carrito">🛒 Carrito</Link>
-        <Link to="/iniciar-sesion">Cerrar sesión</Link>
-      </aside>
-
+    <Layout>
       <div className="filtro-categorias">
         {categorias.map(cat => (
           <button
@@ -99,7 +81,6 @@ function Home() {
           </button>
         ))}
       </div>
-
       <div className="barra-busqueda">
         <span className="icono-busqueda">&#128269;</span>
         <input
@@ -109,9 +90,7 @@ function Home() {
           onChange={e => setBusqueda(e.target.value)}
         />
       </div>
-
       {mensaje && <div className="mensaje-carrito">{mensaje}</div>}
-
       <main className="catalogo">
         {loading ? (
           <p>Cargando productos...</p>
@@ -128,7 +107,7 @@ function Home() {
           ))
         )}
       </main>
-    </div>
+    </Layout>
   );
 }
 
