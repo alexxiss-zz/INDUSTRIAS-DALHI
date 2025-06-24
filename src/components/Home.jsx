@@ -3,6 +3,7 @@ import logo from '../assets/logo.png';
 import { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import { collection, getDocs } from 'firebase/firestore';
+import { Link } from 'react-router-dom';
 
 const categorias = [
   'Todos',
@@ -22,6 +23,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
   const [busqueda, setBusqueda] = useState('');
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [mensaje, setMensaje] = useState('');
 
   useEffect(() => {
     const fetchProductos = async () => {
@@ -61,7 +63,8 @@ function Home() {
     }
 
     localStorage.setItem('carrito', JSON.stringify(carrito));
-    alert('Producto agregado al carrito');
+    setMensaje('Producto agregado al carrito');
+    setTimeout(() => setMensaje(''), 1500);
   };
 
   return (
@@ -80,9 +83,9 @@ function Home() {
         <button className="close-btn" onClick={() => setSidebarOpen(false)}>
           &times;
         </button>
-        <a href="/">Productos</a>
-        <a href="/carrito">🛒 Carrito</a>
-        <a href="/iniciar-sesion">Cerrar sesión</a>
+        <Link to="/">Productos</Link>
+        <Link to="/carrito">🛒 Carrito</Link>
+        <Link to="/iniciar-sesion">Cerrar sesión</Link>
       </aside>
 
       <div className="filtro-categorias">
@@ -106,6 +109,8 @@ function Home() {
           onChange={e => setBusqueda(e.target.value)}
         />
       </div>
+
+      {mensaje && <div className="mensaje-carrito">{mensaje}</div>}
 
       <main className="catalogo">
         {loading ? (

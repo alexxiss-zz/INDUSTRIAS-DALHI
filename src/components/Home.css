@@ -223,3 +223,24 @@
   background: #fff;
   color: #00bfff;
 }
+
+.mensaje-carrito {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background: #00bfff;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  z-index: 2000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-weight: bold;
+  animation: fadeInOut 1.5s;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
